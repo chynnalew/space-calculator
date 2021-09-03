@@ -1,10 +1,45 @@
+body {
+  background-image: url(../../assets/img/space.jpeg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#header {
+  height: 100px;
+  background-color: rgb(13, 6, 104);
+  padding: 20px;
+  height: 120px;
+  margin-bottom:20px;
+  transform:skewY(20deg);
+  font-family: 'Righteous', cursive;
+}
+
+#backBanner {
+  background-image: linear-gradient(45deg, #4d0f80b2, #ff00998e);
+	transform: skewY(-20deg);
+}
+
+.container {  
+  transform:skewY(20deg);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.smallText{
+  font-size: small;
+  color
+}
+
 table{
-  border: 2px solid black;
-  width: 50%;
-  margin: 30px;
+  border: 10px solid rgb(212, 54, 243);
+  box-shadow: 20px 20px 15px rgba(4, 3, 59, 0.863);
+  max-width: 50em;
+	margin: 0 auto;
 }
 td, th {
-  border: 1px dashed black;
+  border: 1px dashed rgb(255, 255, 255);
   padding: 9px;
   width:25%;
 }
+
+

@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
   <title>Space Age</title>
 </head>
 <body>
-  <div class="container">
+  <div id="backBanner">
     <div id="header">
       <h1>Space Age Calculator</h1>
       <p>Find out how old you are and your life expectancy on different planets!</p>
+    </div>  
+    <div class="container">   
+        <form id="form">
+          <p>Enter your name: 
+            <input type="text" id="inputName" required> 
+          </p>
+          <p>Enter your age: 
+            <input type="number" id="inputAge" min="0" required> years old
+          </p>
+          <p>Enter your life Expectancy:
+            <input type="number" id="inputLife" required min="0" > years
+            <br><span class="smallText">The average life expectancy in the United States is 78 years</span>
+          </p>
+          <button type="submit" id="bastOff">Blast Off!</button>
+        </form>
+        <table>
+          <tr>
+            <th>Planet</th>
+            <th>Age</th>
+            <th>Life Expectancy</th>
+            <th>Years Left</th>
+          </tr>
+          <tr>
+            <th>Earth</th>
+            <td id="earthAge"></td>
+            <td id="earthLife"></td>
+            <td id="earthLeft"></td>
+          </tr>
+          <tr>
+            <th>Mercury</th>
+            <td id="mercuryAge"></td>
+            <td id="mercuryLife"></td>
+            <td id="mercuryLeft"></td>
+          </tr>
+          <tr>
+            <th>Venus</th>
+            <td id="venusAge"></td>
+            <td id="venusLife"></td>
+            <td id="venusLeft"></td>
+          </tr>
+          <tr>
+            <th>Mars</th>
+            <td id="marsAge"></td>
+            <td id="marsLife"></td>
+            <td id="marsLeft"></td>
+          </tr>
+          <tr>
+            <th>Jupiter</th>
+            <td id="jupiterAge"></td>
+            <td id="jupiterLife"></td>
+            <td id="jupiterLeft"></td>
+          </tr>
+        </table>
+      </div>
     </div>
-    <form id="form">
-      <p>Enter your name: 
-        <input type="text" id="inputName" required> 
-      </p>
-      <p>Enter your age: 
-        <input type="number" id="inputAge" min="0" required> years old
-      </p>
-      <p>Enter your life Expectancy:
-        <input type="number" id="inputLife" required min="0" > years
-        <br><span class="smallText">The average life expectancy in the United States is 78 years</span>
-      </p>
-      <button type="submit" id="bastOff">Blast Off!</button>
-    </form>
-    <table>
-      <tr>
-        <th>Planet</th>
-        <th>Age</th>
-        <th>Life Expectancy</th>
-        <th>Years Left</th>
-      </tr>
-      <tr>
-        <th>Earth</th>
-        <td id="earthAge"></td>
-        <td id="earthLife"></td>
-        <td id="earthLeft"></td>
-      </tr>
-      <tr>
-        <th>Mercury</th>
-        <td id="mercuryAge"></td>
-        <td id="mercuryLife"></td>
-        <td id="mercuryLeft"></td>
-      </tr>
-      <tr>
-        <th>Venus</th>
-        <td id="venusAge"></td>
-        <td id="venusLife"></td>
-        <td id="venusLeft"></td>
-      </tr>
-      <tr>
-        <th>Mars</th>
-        <td id="marsAge"></td>
-        <td id="marsLife"></td>
-        <td id="marsLeft"></td>
-      </tr>
-      <tr>
-        <th>Jupiter</th>
-        <td id="jupiterAge"></td>
-        <td id="jupiterLife"></td>
-        <td id="jupiterLeft"></td>
-      </tr>
-    </table>
   </div>
 </body>
 </html>
