@@ -25,6 +25,9 @@ export class UserAge {
   }
 
   ageCalculator() {
-   
+    this.mercuryAge();
+    this.venusAge();
+    this.marsAge();
+    this.jupiterAge();
   }
 }
