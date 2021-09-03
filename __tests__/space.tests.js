@@ -16,14 +16,14 @@ describe ('UserAge', () => {
   });
   test('should add the calculated mercury age to user.mercury', () => {
     user.mercuryAge();
-    expect(user.mercury).toEqual(9.6);
+    expect(user.mercury).toBeCloseTo(9.6);
   });
   test('should add the calculated venus age to user.venus', () => {
     user.venusAge();
-    expect(user.venus).toEqual(24.8);
+    expect(user.venus).toBeCloseTo(24.8);
   });
   test('should add the calculated mars age to user.mars', () => {
     user.marsAge();
-    expect(user.mars).toEqual(75.2);
+    expect(user.mars).toBeCloseTo(75.2);
   });
 })

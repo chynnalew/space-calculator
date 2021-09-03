@@ -17,6 +17,6 @@ export class UserAge {
   }
 
   marsAge() {
-    
+    this.mars += (this.earth * 1.88);
   }
 }
