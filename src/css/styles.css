@@ -1,3 +1,7 @@
+.ages {
+  display: none;
+}
+
 body {
   background-image: url(../../assets/img/space.jpeg);
   background-size: cover;
@@ -32,27 +36,20 @@ body {
 }
 
 #form {
+  display:inline-block;
   margin: 20px;
+
+}
+#form p {
+  text-align: left;
 }
 
 input {
   color: white;
   background-color:rgba(66, 18, 155, 0.849);
+  width: 100px;
 }
 
-button {
-  border: 5px solid rgba(0, 0, 0, 0.082);
-  background-color: rgba(0, 0, 139, 0.719);
-  color: white;
-  width: 200px;
-  height: 40px;
-  border-radius: 20px;
-  font-family: 'Righteous', cursive;
-}
-
-button:hover {
-  box-shadow: 0 0 20px 0 rgb(81, 55, 230) inset, 0 0 20px 10px rgb(211, 118, 230);
-}
 
 .smallText{
   font-size: small;

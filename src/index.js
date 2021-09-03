@@ -5,10 +5,10 @@ import './css/styles.css';
 import './css/animate.css';
 import {UserLife} from './userAge.js';
 
+
 $(document).ready(function() {
   $('#form').submit(function(event) {
     event.preventDefault();
-    console.log("hi");
     const name = $('#inputName').val();
     const age = $('#inputAge').val();
     const lifeExp = $('#inputLife').val();
@@ -28,6 +28,7 @@ $(document).ready(function() {
     $('#jupiterAge').html(user.jupiter.toFixed(2));
     $('#jupiterLife').html(user.jupiterExp.toFixed(2));
     $('#jupiterLeft').html(user.jupiterTime().toFixed(2));
+    $('.ages').fadeIn(1000);
   });
 });
 
