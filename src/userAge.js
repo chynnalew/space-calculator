@@ -19,7 +19,7 @@ export class UserLife extends UserAge {
     this.jupiterExp = (this.earthExp / 11.86);
   }
   earthTime() {
- 
+    return this.earthExp - this.earth;
   }
   mercuryTime() {
     return this.mercuryExp - this.mercury;
