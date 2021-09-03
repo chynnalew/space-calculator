@@ -23,6 +23,9 @@ export class UserLife extends UserAge {
     return this.mercuryExp - this.mercury;
   }
   venusTime() {
+    return this.venusExp - this.venus;
+  }
+  marsTime() {
     
   }
 }
