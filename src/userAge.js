@@ -9,11 +9,10 @@ export class UserAge {
   }
   
   mercuryAge() {
-    let mercAge = this.earth * 0.24;
-    this.mercury += mercAge;
+    this.mercury += (this.earth * 0.24);
   }
 
   venusAge() {
-    
+    this.venus += (this.earth * 0.62);
   }
 }
