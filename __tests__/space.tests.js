@@ -14,4 +14,8 @@ describe ('UserAge', () => {
     expect(user.mars).toEqual(0);
     expect(user.jupiter).toEqual(0);
   });
+  test('should add the calculated mercury age to user.mercury', () => {
+    user.mercuryAge();
+    expect(user.mercury).toEqual(9.6);
+  })
 })
