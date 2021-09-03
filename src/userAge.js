@@ -7,11 +7,11 @@ export class UserAge {
     this.mars = 0;
     this.jupiter = 0;
 
-    this.earthLife = life;
-    this.mercuryLife = 0;
-    this.venusLife = 0;
-    this.marsLife = 0;
-    this.jupiterLife = 0;
+    this.earthExp = life;
+    this.mercuryExp = 0;
+    this.venusExp = 0;
+    this.marsExp = 0;
+    this.jupiterExp = 0;
   }
   
   mercuryAge() {
@@ -35,5 +35,9 @@ export class UserAge {
     this.venusAge();
     this.marsAge();
     this.jupiterAge();
+  }
+
+  mercuryLife() {
+    
   }
 }

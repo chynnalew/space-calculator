@@ -33,7 +33,7 @@ merc life expect - this.merc = time left to live ()
 
 ## Description
 This application was created to show understanding of TDD using the Red, Green, Refactor workflow and Jest. Tests were written for each function, committed before writing the corresponding business logic (after receiving a good fail), committed again after the test passes with business logic, then refactoring the tests as needed. 
-Tha application contains the business logic for a space age calculator. The user can input their age and receive their age and life expectancy on Mercury, Venus, Mars, and Jupiter.
+Tha application contains the business logic for a space age calculator. The user can input their age and receive their age and life expectancy on Mercury, Venus, Mars, and Jupiter. Life expectancy is calculated based on the age the user believes they will live to on earth.
 
 ## Setup/Installation Requirements
 
