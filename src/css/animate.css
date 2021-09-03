@@ -1,0 +1,25 @@
+#pulse {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.719);
+  height: 100%;
+  width: 100%;
+  animation: pulse 10s infinite;
+
+}
+
+#pulse::before, #pulse::after {
+  content: '';
+  position: absolute;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: .9;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .9;
+  }
+}

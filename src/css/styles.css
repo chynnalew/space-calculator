@@ -8,6 +8,7 @@ body {
 #header {
   height: 100px;
   background-color: rgb(13, 6, 104);
+  box-shadow: 0px 0px 30px 10px inset rgba(0, 0, 0, 0.623);
   padding: 20px;
   height: 120px;
   margin-bottom:20px;
@@ -27,17 +28,25 @@ body {
 .container {  
   transform:skewY(20deg);
   font-family: 'Montserrat', sans-serif;
+  
 }
 
 #form {
   margin: 20px;
 }
 
+input {
+  color: white;
+  background-color:rgba(66, 18, 155, 0.849);
+}
+
 button {
-  border-color:rgb(81, 8, 124);
-  background-color: rgba(0, 0, 139, 0.596);
-  color: #fff;;
-  transition: all 150ms ease-in-out;
+  border: 5px solid rgba(0, 0, 0, 0.082);
+  background-color: rgba(0, 0, 139, 0.719);
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
   font-family: 'Righteous', cursive;
 }
 
@@ -50,8 +59,8 @@ button:hover {
 }
 
 table{
-  border: 10px solid rgb(212, 54, 243);
-  box-shadow: 20px 20px 15px rgba(4, 3, 59, 0.863);
+  border: 5px solid rgb(212, 54, 243);
+  box-shadow: 20px 20px 15px rgba(4, 3, 59, 0.863), 5px 5px 50px 10px inset rgba(0, 0, 255, 0.781);
   max-width: 50em;
 	margin: 0 auto;
   background-color: rgba(14, 14, 87, 0.863);
@@ -61,6 +70,11 @@ td, th {
   border: 1px dashed rgb(255, 255, 255);
   padding: 9px;
   width:25%;
+}
+
+th{
+  font-family: 'Righteous', cursive;
+
 }
 
 
