@@ -23,7 +23,10 @@ describe ('UserAge', () => {
   test('should add the calculated jupiter age to user.jupiter', () => {
     expect(user.jupiter).toBeCloseTo(3.37, 1);
   });
-  test('should calculate life expectancy on mercury and add it to user.mercuryExp', () => {
+  test('should calculate life expectancy on all planets', () => {
     expect(user.mercuryExp).toBeCloseTo(327.33, 1);
+    expect(user.venusExp).toBeCloseTo(126.71, 1);
+    expect(user.marsExp).toBeCloseTo(41.78, 1);
+    expect(user.jupiterExp).toBeCloseTo(11.86, 1);
   });
 });
