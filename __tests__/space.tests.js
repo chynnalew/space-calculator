@@ -1,9 +1,9 @@
-import {UserAge} from './../src/userAge';
+import {UserAge, Life} from './../src/userAge';
 
 describe ('UserAge', () => {
   let user;
   beforeEach(() => {
-    user = new UserAge("Mario", 40);
+    user = new UserAge("Mario", 40, 78.56);
   });
 
   test('should create a new user object using the UserAge constructor', () => {
@@ -38,5 +38,8 @@ describe ('UserAge', () => {
     expect(user.venus).toBeCloseTo(64.51, 1);
     expect(user.mars).toBeCloseTo(21.27, 1);
     expect(user.jupiter).toBeCloseTo(3.37, 1);
-  })
-})
+  });
+  test('should calculate life expectancy on each planet to UserAge', () => {
+    
+  });
+});

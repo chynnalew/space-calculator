@@ -11,6 +11,9 @@ Jupiter year- 11.86 Earth years
 Life expectancy prototype:
 calculate the user's life expectancy on a planet using the average life expectancy in the usa  (78.54 years)
 
+earth life expectancy / .24 = merc life expect (327.25)
+merc life expect - this.merc = time left to live ()
+
 
 
 # Space Calculator

@@ -1,11 +1,17 @@
 export class UserAge {
-  constructor(name, earth) {
+  constructor(name, earth, life) {
     this.name = name;
     this.earth = earth;
     this.mercury = 0;
     this.venus = 0;
     this.mars = 0;
     this.jupiter = 0;
+
+    this.earthLife = life;
+    this.mercuryLife = 0;
+    this.venusLife = 0;
+    this.marsLife = 0;
+    this.jupiterLife = 0;
   }
   
   mercuryAge() {
