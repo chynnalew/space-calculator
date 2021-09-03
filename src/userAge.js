@@ -38,6 +38,6 @@ export class UserAge {
   }
 
   mercuryLife() {
-    
+    this.mercuryExp += (this.earthExp / 0.24);
   }
 }
