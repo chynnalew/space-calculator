@@ -28,5 +28,8 @@ export class UserLife extends UserAge {
   marsTime() {
     return this.marsExp - this.mars;
   }
+  jupiterTime() {
+    
+  }
 }
 
