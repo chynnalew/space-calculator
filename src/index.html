@@ -9,15 +9,19 @@
       <h1>Space Age Calculator</h1>
       <p>Find out how old you are and your life expectancy on different planets!</p>
     </div>
-    <form action="submit" id="form">
+    <div id="input">
+      <p>Enter your name: 
+        <input type="text" id="inputName" required> years old
+      </p>
       <p>Enter your age: 
-        <input type="number" id="inputAge"> years old
+        <input type="number" id="inputAge" required> years old
       </p>
       <p>Enter your life Expectancy:
-        <input type="number" id="inputLife"> years
+        <input type="number" id="inputLife" required> years
         <br><span class="smallText">The average life expectancy in the United States is 78.65 years</span>
       </p>
-    </form>
+      <button type="button" id="bastOff">Blast Off!</button>
+    </div>
     <table>
       <tr>
         <th>Planet</th>
