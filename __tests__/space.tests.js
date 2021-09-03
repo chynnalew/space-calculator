@@ -1,9 +1,9 @@
-import {UserAge, Life} from './../src/userAge';
+import {UserAge, UserLife} from './../src/userAge';
 
 describe ('UserAge', () => {
   let user;
   beforeEach(() => {
-    user = new UserAge("Mario", 40, 78.56);
+    user = new UserLife("Mario", 40, 78.56);
   });
 
   test('should create a new user object using the UserAge constructor', () => {
