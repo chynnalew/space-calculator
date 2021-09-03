@@ -16,14 +16,18 @@ describe ('UserAge', () => {
   });
   test('should add the calculated mercury age to user.mercury', () => {
     user.mercuryAge();
-    expect(user.mercury).toBeCloseTo(9.6);
+    expect(user.mercury).toBeCloseTo(166.66, 1);
   });
   test('should add the calculated venus age to user.venus', () => {
     user.venusAge();
-    expect(user.venus).toBeCloseTo(24.8);
+    expect(user.venus).toBeCloseTo(64.51, 1);
   });
   test('should add the calculated mars age to user.mars', () => {
     user.marsAge();
-    expect(user.mars).toBeCloseTo(75.2);
+    expect(user.mars).toBeCloseTo(21.27, 1);
+  });
+  test('should add the calculated jupiter age to user.jupiter', () => {
+    user.jupiterAge();
+    expect(user.jupiter).toBeCloseTo(3.37, 1);
   });
 })

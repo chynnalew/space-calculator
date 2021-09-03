@@ -9,14 +9,18 @@ export class UserAge {
   }
   
   mercuryAge() {
-    this.mercury += (this.earth * 0.24);
+    this.mercury += (this.earth / 0.24);
   }
 
   venusAge() {
-    this.venus += (this.earth * 0.62);
+    this.venus += (this.earth / 0.62);
   }
 
   marsAge() {
-    this.mars += (this.earth * 1.88);
+    this.mars += (this.earth / 1.88);
+  }
+
+  jupiterAge() {
+
   }
 }
