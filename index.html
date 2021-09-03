@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+  <title>Space Age</title>
+</head>
+<body>
+  <div id="pulse">
+  </div>
+  <div id="backBanner">
+    <div id="header">
+      <h1>Space Age Calculator</h1>
+      <p>Find out how old you are and your life expectancy on different planets!</p>
+    </div>  
+    <div class="container">   
+        <form id="form">
+          <p>Enter your name: 
+            <input type="text" id="inputName" required> 
+          </p>
+          <p>Enter your age: 
+            <input type="number" id="inputAge" min="0" required> years old
+          </p>
+          <p>Enter your life Expectancy:
+            <input type="number" id="inputLife" required min="0" > years
+            <br><span class="smallText">The average life expectancy in the United States is 78 years</span>
+          </p>
+          <button type="submit" id="bastOff">Blast Off!</button>
+        </form>
+        <table>
+          <tr>
+            <th>Planet</th>
+            <th>Age</th>
+            <th>Life Expectancy</th>
+            <th>Years Left</th>
+          </tr>
+          <tr>
+            <th>Earth</th>
+            <td><span class="ages" id="earthAge"></span></td>
+            <td><span class="ages" id="earthLife"></span></td>
+            <td><span class="ages" id="earthLeft"></span></td>
+          </tr>
+          <tr>
+            <th>Mercury</th>
+            <td><span class="ages"  id="mercuryAge"></span></td>
+            <td><span class="ages"  id="mercuryLife"></span></td>
+            <td><span class="ages"  id="mercuryLeft"></span></td>
+          </tr>
+          <tr>
+            <th>Venus</th>
+            <td><span class="ages"  id="venusAge"></span></td>
+            <td><span class="ages"  id="venusLife"></span></td>
+            <td><span class="ages"  id="venusLeft"></span></td>
+          </tr>
+          <tr>
+            <th>Mars</th>
+            <td><span class="ages"  id="marsAge"></td>
+            <td><span class="ages"  id="marsLife"></td>
+            <td><span class="ages"  id="marsLeft"></td>
+          </tr>
+          <tr>
+            <th>Jupiter</th>
+            <td><span class="ages"  id="jupiterAge"></td>
+            <td><span class="ages" id="jupiterLife"></td>
+            <td><span class="ages"  id="jupiterLeft"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="/space-calculator/bundle.js"></script></body>
+</html>
