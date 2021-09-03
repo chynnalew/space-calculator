@@ -20,7 +20,7 @@ export class UserLife extends UserAge {
   }
 
   mercuryTime() {
-    
+    return this.mercuryExp - this.mercury;
   }
 }
 
