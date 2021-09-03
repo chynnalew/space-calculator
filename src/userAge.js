@@ -12,4 +12,8 @@ export class UserAge {
     let mercAge = this.earth * 0.24;
     this.mercury += mercAge;
   }
+
+  venusAge() {
+    
+  }
 }
