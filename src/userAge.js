@@ -23,4 +23,8 @@ export class UserAge {
   jupiterAge() {
     this.jupiter += (this.earth / 11.86);
   }
+
+  ageCalculator() {
+   
+  }
 }

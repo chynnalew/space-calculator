@@ -30,4 +30,13 @@ describe ('UserAge', () => {
     user.jupiterAge();
     expect(user.jupiter).toBeCloseTo(3.37, 1);
   });
+  test('should use helper prototypes to populate user age for all planets', () => {
+    user.ageCalculator();
+    expect(user.name).toEqual("Mario");
+    expect(user.earth).toEqual(40);
+    expect(user.mercury).toBeCloseTo(166.66, 1);
+    expect(user.venus).toBeCloseTo(64.51, 1);
+    expect(user.mars).toBeCloseTo(21.27, 1);
+    expect(user.jupiter).toBeCloseTo(3.37, 1);
+  })
 })
