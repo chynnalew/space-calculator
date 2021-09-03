@@ -27,6 +27,6 @@ describe ('UserAge', () => {
     expect(user.mercuryExp).toBeCloseTo(327.33, 1);
     expect(user.venusExp).toBeCloseTo(126.71, 1);
     expect(user.marsExp).toBeCloseTo(41.78, 1);
-    expect(user.jupiterExp).toBeCloseTo(11.86, 1);
+    expect(user.jupiterExp).toBeCloseTo(6.62, 1);
   });
 });
