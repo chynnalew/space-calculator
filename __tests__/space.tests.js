@@ -37,5 +37,8 @@ describe('UserLife', () => {
   });
   test('should calculate how many years the user has left on mercury', () => {
     expect(user.mercuryTime()).toBeCloseTo(160.67, 1);
+  });
+  test('should calculate how many years the user has left on venus', () => {
+    expect(user.venusTime()).toBeCloseTo(62.2, 1);
   })
 })
