@@ -19,21 +19,34 @@ export class UserLife extends UserAge {
     this.jupiterExp = (this.earthExp / 11.86);
   }
   earthTime() {
-    return this.earthExp - this.earth;
+    if((this.earthExp - this.earth)>0){
+      return this.earthExp - this.earth;
+    } else
+    return "over by " + (this.earth - this.earthExp);
   }
   mercuryTime() {
-    return this.mercuryExp - this.mercury;
+    if((this.mercuryExp - this.mercury)>0){
+      return this.mercuryExp - this.mercury;
+    } else
+    return "over by " + (this.mercury - this.mercuryExp);
   }
   venusTime() {
-    return this.venusExp - this.venus;
+    if((this.venusExp - this.venus)>0){
+      return this.venusExp - this.venus;
+    } else
+    return "over by " + (this.venus - this.venusExp);
   }
   marsTime() {
-    return this.marsExp - this.mars;
+    if((this.marsExp - this.mars)>0){
+      return this.marsExp - this.mars;
+    } else
+    return "over by " + (this.mars - this.marsExp);
   }
   jupiterTime() {
-    return this.jupiterExp - this.jupiter;
+    if((this.jupiterExp - this.jupiter)>0){
+      return this.jupiterExp - this.jupiter;
+    } else
+    return "over by " + (this.jupiter - this.jupiterExp);
   }
-
-  
 }
 
