@@ -5,7 +5,6 @@ import './css/styles.css';
 import './css/animate.css';
 import {UserLife} from './userAge.js';
 
-
 $(document).ready(function() {
   $('#form').submit(function(event) {
     event.preventDefault();
