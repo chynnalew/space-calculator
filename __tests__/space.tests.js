@@ -50,8 +50,4 @@ describe('UserLife', () => {
   test('should calculate how many years the user has left on earth', () => {
     expect(user.earthTime()).toBeCloseTo(38.56, 1);
   });
-  test('should return the age over life expectancy if exp is negative', () => {
-    let user2 = new UserLife("Luigi", 50, 40)
-    expect(user2.earthTime()).toEqual("over by 10");
-  })
 })
