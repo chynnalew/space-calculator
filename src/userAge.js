@@ -82,7 +82,11 @@ export class UserLife extends UserAge {
     }
   }
   jupiterOver() {
-    
+    if ((this.jupiterExp-this.jupiter)>0){
+      return "N/A";
+    } else {
+      return this.jupiter - this.jupiterExp;
+    }
   }
 }
 
