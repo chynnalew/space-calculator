@@ -75,7 +75,11 @@ export class UserLife extends UserAge {
     }
   }
   marsOver() {
-    
+    if ((this.marsExp-this.mars)>0){
+      return "N/A";
+    } else {
+      return this.mars - this.marsExp;
+    }
   }
   
 }
