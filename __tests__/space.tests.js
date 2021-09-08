@@ -26,8 +26,10 @@ describe ('UserAge', () => {
 
 describe('UserLife', () => {
   let user;
+  let user2;
   beforeEach(() => {
     user = new UserLife("Mario", 40, 78.56);
+    user2 = new UserLife("Boo", 100, 50);
   });
   test('should calculate life expectancy on all planets', () => {
     expect(user.mercuryExp).toBeCloseTo(327.33, 1);
@@ -51,7 +53,10 @@ describe('UserLife', () => {
     expect(user.earthTime()).toBeCloseTo(38.56, 1);
   });
   test('should return N/A if the earth years left is less than 0', () => {
-    let user2 = new UserLife("Boo", 100, 50)
+    
     expect(user2.earthTime()).toEqual("N/A");
-  })
+  });
+  test('should return N/A if the mercury years left is less than 0', () => {
+    expect(user2.mercuryTime()).toEqual("N/A");
+  });
 })
