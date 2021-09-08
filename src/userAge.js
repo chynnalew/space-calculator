@@ -74,7 +74,9 @@ export class UserLife extends UserAge {
       return this.venus - this.venusExp;
     }
   }
-
+  marsOver() {
+    
+  }
   
 }
 

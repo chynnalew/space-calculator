@@ -77,4 +77,7 @@ describe('UserLife', () => {
   test('should calculate years over venus life expectancy', () => {
     expect(user2.venusOver()).toBeCloseTo(80.64, 1);
   });
+  test('should calculate years over mars life expectancy', () => {
+    expect(user2.marsOver()).toBeCloseTo(26.59, 1);
+  });
 })
