@@ -53,6 +53,9 @@ export class UserLife extends UserAge {
       return "N/A";
     }
   }
+  earthOver() {
+
+  }
 
   
 }
