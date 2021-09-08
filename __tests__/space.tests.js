@@ -52,6 +52,6 @@ describe('UserLife', () => {
   });
   test('should return N/A if the earth years left is less than 0', () => {
     let user2 = new UserLife("Boo", 100, 50)
-    expect(user.earthTime()).toEqual("N/A");
+    expect(user2.earthTime()).toEqual("N/A");
   })
 })
