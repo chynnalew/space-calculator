@@ -54,7 +54,11 @@ export class UserLife extends UserAge {
     }
   }
   earthOver() {
-
+    if ((this.earthExp-this.earth)>0){
+      return "N/A";
+    } else {
+      return this.earth - this.earthExp;
+    }
   }
 
   

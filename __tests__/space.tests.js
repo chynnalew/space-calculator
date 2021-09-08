@@ -69,6 +69,6 @@ describe('UserLife', () => {
     expect(user2.jupiterTime()).toEqual("N/A");
   });
   test('should calculate years over earth life expectancy', () => {
-    expect(user.earthOver()).toBeCloseTo(50, 1);
+    expect(user2.earthOver()).toBeCloseTo(50, 1);
   });
 })
