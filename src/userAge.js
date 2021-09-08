@@ -60,6 +60,9 @@ export class UserLife extends UserAge {
       return this.earth - this.earthExp;
     }
   }
+  mercuryOver() {
+    
+  }
 
   
 }
