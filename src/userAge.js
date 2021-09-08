@@ -33,7 +33,11 @@ export class UserLife extends UserAge {
     }
   }
   venusTime() {
-    return this.venusExp - this.venus;
+    if ((this.venusExp-this.venus)>0){
+      return this.venusExp - this.venus;
+    } else {
+      return "N/A";
+    }
   }
   marsTime() {
     return this.marsExp - this.mars;
