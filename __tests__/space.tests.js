@@ -62,4 +62,7 @@ describe('UserLife', () => {
   test('should return N/A if the venus years left is less than 0', () => {
     expect(user2.venusTime()).toEqual("N/A");
   });
+  test('should return N/A if the mars years left is less than 0', () => {
+    expect(user2.marsTime()).toEqual("N/A");
+  });
 })
