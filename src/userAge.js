@@ -81,6 +81,8 @@ export class UserLife extends UserAge {
       return this.mars - this.marsExp;
     }
   }
-  
+  jupiterOver() {
+    
+  }
 }
 
