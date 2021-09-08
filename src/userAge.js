@@ -61,7 +61,11 @@ export class UserLife extends UserAge {
     }
   }
   mercuryOver() {
-    
+    if ((this.mercuryExp-this.mercury)>0){
+      return "N/A";
+    } else {
+      return this.mercury - this.mercuryExp;
+    }
   }
 
   
