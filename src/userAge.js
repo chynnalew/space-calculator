@@ -75,7 +75,6 @@ export class UserLife extends UserAge {
     }
   }
   marsOver() {
-<<<<<<< HEAD
     if ((this.marsExp-this.mars)>0){
       return "N/A";
     } else {
@@ -89,10 +88,5 @@ export class UserLife extends UserAge {
       return this.jupiter - this.jupiterExp;
     }
   }
-=======
-    
-  }
-  
->>>>>>> 0f4de0c8 (pass test14: mars age over)
 }
 

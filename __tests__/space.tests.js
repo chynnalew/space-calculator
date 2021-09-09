@@ -70,17 +70,22 @@ describe('UserLife', () => {
   });
   test('should calculate years over earth life expectancy', () => {
     expect(user2.earthOver()).toBeCloseTo(50, 1);
+    expect(user.earthOver()).toEqual('N/A');
   });
   test('should calculate years over mercury life expectancy', () => {
     expect(user2.mercuryOver()).toBeCloseTo(208.33, 1);
+    expect(user.mercuryOver()).toEqual('N/A');
   });
   test('should calculate years over venus life expectancy', () => {
     expect(user2.venusOver()).toBeCloseTo(80.64, 1);
+    expect(user.venusOver()).toEqual('N/A');
   });
   test('should calculate years over mars life expectancy', () => {
     expect(user2.marsOver()).toBeCloseTo(26.59, 1);
+    expect(user.marsOver()).toEqual('N/A');
   });
   test('should calculate the years over jupiter life expectancy', () => {
     expect(user2.jupiterOver()).toBeCloseTo(4.21, 1);
+    expect(user.jupiterOver()).toEqual('N/A');
   });
 })
